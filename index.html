@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+	<!-- <link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css"> -->
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<div class="container-fluid">
+	<a class="navbar-logo" href="#"><img src="img/supermail.png">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-toggle="collapse" data-target="#navbarResponsive">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item active">
+				<a class="nav-link" href="#">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Services</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Team</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Contact</a>
+			</li>
+		</ul>
+	</div>
+</div>
+</nav>
+
+<!--- Image Slider -->
+<div id="slides" class="carousel slide" data-ride="carousel">
+<ul class="carousel-indicators">
+	<li data-target="#slides" data-slide-to="0" class="active"></li>
+	<li data-target="#slides" data-slide-to="1"></li>
+	<li data-target="#slides" data-slide-to="2"></li>
+</ul>
+<div class="carousel-inner">
+	<div class="carousel-item active">
+		<img src="img/header.png">
+		<div class="carousel-caption">
+			<h1 class="display-2">SMART MARKETING</h1>
+			<h3>Become the brand you want to be</h3>
+			<button type="button" class="btn btn-light btn-lg">Log In</button>
+			<button type="button" class="btn btn-primary btn-lg">Sign Up Free</button>
+		</div>
+	</div>
+	<div class="carousel-item">
+		<img src="img/header2.png">
+	</div>
+	<div class="carousel-item">
+		<img src="img/header3.png">
+	</div>
+</div>
+</div>
+
+<!--- Jumbotron -->
+<div class="container-fluid">
+<div class="row jumbotron">
+	<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+		<p class="lead">Supermail helps you design e-mail newsletters, share them on social networks, integrate with services you already use, and track your results. It's like your own personal publishing platform.</p>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+		<a href="#"><button type="button" class="btn btn-primary btn-lg">Sign Up Free</button></a>
+	</div>
+</div>
+</div>
+
+
+<!--- Welcome Section -->
+<div class="container-fluid padding">
+<div class="row welcome text-center">
+	<div class="col-12">
+		<h1 class="display-4">What You Can Do</h1>
+	</div>
+	<hr>
+	<div class="col-12">
+		<p class="lead">Supermail opens your business up for a whole new world of possibilities.</p>
+	</div>
+</div>
+</div>
+
+<!--- Three Column Section -->
+<div class="container-fluid padding">
+<div class="row text-center padding">
+	<div class="col-xs-12 col-sm-6 col-md-4">
+		<div class="column">
+			<img src="img/creativity.png" class="creativity">
+		</div>
+		<br>
+		<h3>Create unique campaigns</h3>
+		<p>Get the word out with e-mail, social ads, and more.</p>
+	</div>
+	<div class="col-xs-12 col-sm-6 col-md-4">
+		<div class="column">
+			<img src="img/connection.png" class="connection">
+		</div>
+		<br>
+		<h3>Connect your favorite tools</h3>
+		<p>Unlock new features with the tools you already use.</p>
+	</div>
+	<div class="col-sm-12 col-md-4">
+		<div class="column">
+			<img src="img/automation.png" class="automation">
+		</div>
+		<br>
+		<h3>Automate your busy work</h3>
+		<p>Make your life easier with automation.</p>
+	</div>
+</div>
+<hr class="my-4">
+</div>
+
+<!--- Two Column Section -->
+<div class="container-fluid padding">
+<div class="row padding">
+	<div class="col-md-12 col-lg-6">
+		<h2>Grow and engage your audience</h2>
+		<p>Capture all the contact information you need to delight your customers with personalized campaigns.</p>
+<p><img src="img/tick.png">&nbsp;&nbsp;Built-in signup form<br>
+<img src="img/tick.png">&nbsp;&nbsp;Pop-up forms<br>
+<img src="img/tick.png">&nbsp;&nbsp;Surveys<br>
+<img src="img/tick.png">&nbsp;&nbsp;Marketing CRM<br>
+<img src="img/tick.png">&nbsp;&nbsp;Behavioral targeting</p>
+		<br>
+		<p><a href="#" class="btn btn-outline-secondary btn-lg">See All Audience Tools</a></p>
+	</div>
+	<div class="col-lg-6">
+		<img src="img/campaign.png" class="img-fluid">
+	</div>
+</div>
+</div>
+
+<hr class="my-4">
+<!--- Fixed background -->
+<figure>
+	<div class="fixed-wrap">
+		<div id="fixed">
+		</div>
+	</div>
+</figure>
+  
+<!--- Customer reviews -->
+<div class="container-fluid padding">
+<div class="row welcome text-center">
+	<div class="col-12">
+		<h1 class="display-4">Customer Reviews</h1>
+	</div>
+	<hr>
+</div>
+</div>
+
+<!--- Cards -->
+<div class="container-fluid padding">
+<div class="row padding">
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="img/customer1.png">
+			<div class="card-body">
+				<h4 class=card-title">Adam Baker</h4>
+				<p class="card-text">Very intuitive and easy-to-understand interface. So convenient!</p>
+				<a href="#" class="btn btn-outline-secondary">Read More</a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="img/customer2.png">
+			<div class="card-body">
+				<h4 class=card-title">Clark Davis</h4>
+				<p class="card-text">Might just be the single best email marketing platform on the market.</p>
+				<a href="#" class="btn btn-outline-secondary">Read More</a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="img/customer3.png">
+			<div class="card-body">
+				<h4 class=card-title">Reily Smith</h4>
+				<p class="card-text">It's surprising just how much possibility for customization you get for free.</p>
+				<a href="#" class="btn btn-outline-secondary">Read More</a>
+			</div>
+		</div>
+	</div>
+	
+</div>
+</div>
+
+<!--- Two Column Section -->
+<div class="container-fluid padding">
+<div class="row padding">
+	<div class="col-lg-6">
+		<h2 class="text-big">"Supermail gives you all the tools you could ever possibly need to spread the word about your wesite efficiently. As you grow, you discover these new features naturally and almost instinctively"</h2>
+		<p class="text-small">— Steven Carse, co-founder, King of Pops</p>
+		<br>
+	</div>
+	<div class="col-lg-6">
+			<img src="img/carse1.png" class="carse" align="center">
+	</div>
+</div>
+</div>
+</div>
+
+<!--- Contact -->
+<div class="container-fluid padding">
+<div class="row text-center padding">
+	<div class="col-12">
+		<h2>Contact Us</h2>
+	</div>
+	<div class="col-12 social padding">
+		<a href="#"><i class="fab fa-facebook"></i></a>
+		<a href="#"><i class="fab fa-twitter"></i></a>
+		<a href="#"><i class="fab fa-google-plus-g"></i></a>
+		<a href="#"><i class="fab fa-instagram"></i></a>
+		<a href="#"><i class="fab fa-youtube"></i></a>
+	</div>		
+</div>
+</div>
+
+<!--- Footer -->
+<footer>
+<div class="container-fluid padding">
+<div class="row text-center">
+	<div class="col-md-4">
+		<hr class="dark">
+		<h5>About Us</h5>
+		<hr class="dark">
+		<p>About SuperMail</p>
+		<p>Jobs</p>
+		<p>Press Resources</p>
+		<p>Press Releases</p>
+		<p>Integration Fund </p>
+		<p>Brand Assets</p>
+	</div>
+	
+	<div class="col-md-4">
+		<hr class="dark">
+		<h5>Connect With Us</h5>
+		<hr class="dark">
+		<p>Transactional Email</p>
+		<p>Integrations & Plug Ins</p>
+		<p>SuperMail API</p>
+		<p>SuperMail Labs</p>
+	</div>
+	
+	<div class="col-md-4">
+		<hr class="dark">
+		<p>Legal Info</p>
+		<hr class="dark">
+		<p>Terms of Use</p>
+		<p>Acceptable Use Policy</p>
+		<p>Privacy Policy</p>
+		<p>API Use Policy</p>
+		<p>Copyright Policy</p>
+	</div>
+	<div class="col-12">
+		<hr class="light-100">
+		<h5>&copy: supermail.com</h5>
+	</div>
+</div>
+</div>
+</footer>
+
+</body>
+</html>
